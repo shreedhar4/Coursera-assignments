@@ -87,7 +87,7 @@ img.bg {
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
     .navbar {
-        background: black;
+        background:#000000;
     }
 
     .navbar .navbar-brand, .navbar .nav-link {
@@ -117,9 +117,11 @@ a.nav-link{
 
 .nav-icon{
   font-size: 2rem;
-
-  
 }
+.bg-dark{
+  background-color: #000000!important;
+}
+
 
 
 
