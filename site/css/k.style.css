@@ -25,3 +25,46 @@
 }
 
   
+
+.maipoem{
+  
+  margin-left: 2rem;
+  background-image: linear-gradient(  #EFEFEF, #808080 );
+  color:black;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.heading{
+  display: inline-block;
+  width: 40vh;
+  text-decoration: underline;
+  padding-right: 4rem;
+
+  color:white;
+  font-style: italic;
+
+}
+
+@media (max-width:992px) { 
+
+.heading{
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.maipoem{
+  border-top:solid white 2px;
+  border-bottom:solid white 2px;
+}
+}
+
+@media (min-width:992px){
+  .maipoem{
+    border-left:solid white 2px;
+    border-right:solid white 2px;
+  }
+}
