@@ -1,0 +1,123 @@
+body{
+height: 3000px
+}
+
+.guidesHead{
+	
+	text-align: center;
+	margin-top:7.5rem ;
+	margin-bottom: 5rem;
+}
+	
+
+
+
+.jumbotron{
+	height:60vh;
+
+}
+.cta1{
+}
+
+#ill{
+	opacity: 0.4;
+	position: absolute;
+}
+
+
+.secondaryheading, h1, h2{
+	font-weight:lighter;
+}
+
+ img{ 
+   max-width:100%; 
+  height:auto;
+  position: absolute; 
+  opacity: 0.8;
+
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("books.jpg");/*i changed this image*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.introP{
+ font-size: 1.4rem;
+}
+
+
+
+}
+
+.intro-cnt{
+	
+}
+
+.forepara{
+	font-size: 1.4rem;
+
+}
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after{
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+h4{
+	font-weight: lighter;
+	color:#555555;
+	display: block;
+
+}
+
+.ladyCover{
+	z-index: -1;
+	position: relative;
+
+}
+
+.ladyCaption{
+	z-index: 1;
+
+}
+.form-cnt{
+margin-bottom: 10rem;
+
+}
+
+
+.footer{
+background:#EACFA3;	
+height: 15rem;
+position: bottom; 
+
+
+}
